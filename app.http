@@ -1,0 +1,51 @@
+###
+
+POST http://localhost:3001/register/
+Content-Type: application/json
+
+{   
+    "name":"pratap",
+    "phone":"7225847527",
+    "email": "pratap@456",
+    "password": "pratap"
+    
+}
+
+
+###
+
+POST http://localhost:3001/login/
+Content-Type: application/json
+
+{
+    "name":"pratap",
+    "password": "pratap"
+}
+
+# ###
+# GET https://user-credientials.onrender.com/users/
+
+###
+
+GET http://localhost:3001/user/
+
+# ###
+# POST https://user-credientials.onrender.com/login/
+# Content-Type: application/json
+
+# {
+#     "name":"rahul",
+#     "password": "rahu1l"
+# }
+
+# ###
+# POST https://user-credientials.onrender.com/register/
+# Content-Type: application/json
+
+# {   
+#     "name":"rahu",
+#     "phone":"7225847527",
+#     "email": "rahul@456",
+#     "password": "rahu"
+    
+# }
